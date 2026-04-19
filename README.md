@@ -20,3 +20,13 @@ SELECT TOP (1000) [Code],
        [Name],
        [TelephoneNo]
 FROM [SupplierPOC].[dbo].[Suppliers]
+
+## ⚠️ Running the Frontend and Backend
+
+Although both the **SupplierFrontend (React + TypeScript)** and **SupplierApi (C# Web API)** are located within the same repository/folder structure, they are completely separate applications and must be run independently.
+
+### ▶️ Backend (SupplierApi)
+- Navigate to the `SupplierApi` project folder
+- Run the API using:
+```bash
+dotnet run

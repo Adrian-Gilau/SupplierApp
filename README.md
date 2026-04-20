@@ -12,6 +12,9 @@ The solution is implemented as a **full 3-tier architecture** consisting of:
 
 ---
 
+## ⚠️ The frontend and backend are two completely independent projects.
+They are not part of the same Visual Studio solution and must be run separately.
+
 ## 🧩 Database Structure
 
 The system uses the following SQL Server table:
